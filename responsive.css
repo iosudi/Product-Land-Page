@@ -1,0 +1,383 @@
+@media (max-width: 1772px) {
+  .description .container .heading h2 {
+    font-size: 80px;
+    line-height: 70px;
+    left: -220px;
+  }
+}
+@media (max-width: 1705px) {
+  .main {
+    height: 110vh;
+  }
+
+  .main .container .background-title {
+    top: 15%;
+  }
+
+  .main .container .heading {
+    padding: 0 5em;
+  }
+
+  .main .container .heading .image-left img {
+    width: 36em;
+  }
+
+  .main .container .heading .image-right img {
+    width: 32em;
+  }
+
+  .description .container .heading h2 {
+    font-size: 75px;
+    line-height: 70px;
+    left: -180px;
+    margin-bottom: 0.5em;
+  }
+
+  .description .container .heading p {
+    font-size: 18px;
+  }
+
+  .description .container .heading .arrow {
+    width: 75px;
+    height: 3px;
+    border-radius: 10px;
+  }
+
+  .description .container .heading .btn {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 1579px) {
+  .main .container .background-title {
+    top: 15%;
+    font-size: 250px;
+    line-height: 200px;
+  }
+
+  .main .container .heading .image-left img {
+    width: 30em;
+  }
+
+  .main .container .heading .title h1 {
+    font-size: 90px;
+    line-height: 85px;
+  }
+
+  .main .container .heading .title p {
+    font-size: 18px;
+  }
+
+  .main .container .heading .title .btn {
+    font-size: 20px;
+    padding: 20px 70px;
+  }
+
+  .main .container .heading .image-right img {
+    width: 32em;
+  }
+}
+
+@media (max-width: 1375px) {
+  .main .container .background-title {
+    top: 20%;
+  }
+
+  .main .container .heading {
+    padding: 0 2em;
+  }
+
+  .main .container .heading .title h1 {
+    font-size: 85px;
+  }
+
+  .main .container .heading .title .btn {
+    font-size: 18px;
+    padding: 20px 60px;
+  }
+
+  .main .container .heading .image-right img {
+    width: 30em;
+  }
+
+  .description .container .heading {
+    width: 50%;
+    left: 0%;
+  }
+
+  .page3 .container .heading h1 {
+    font-size: 80px;
+    line-height: 70px;
+  }
+
+  .page3 .container .heading p {
+    width: 80%;
+  }
+
+  .page3 .container .image {
+    top: -120px;
+
+    width: 96em;
+  }
+
+  .page3 .container .image img {
+    width: 55em;
+  }
+}
+
+@media (max-width: 1300px) {
+  .main {
+    height: 95vh;
+  }
+
+  .main .container .background-title {
+    top: 20%;
+    font-size: 230px;
+    line-height: 180px;
+  }
+
+  .main .container .heading .image-left img {
+    width: 28em;
+  }
+
+  .main .container .heading .title h1 {
+    font-size: 75px;
+    line-height: 85px;
+  }
+
+  .main .container .heading .title p {
+    font-size: 16px;
+    margin-bottom: 1em;
+  }
+
+  .main .container .heading .title .btn {
+    font-size: 15px;
+    padding: 20px 50px;
+  }
+
+  .main .container .heading .image-right img {
+    width: 25em;
+  }
+}
+
+@media (max-width: 1191px) {
+  .main {
+    align-items: center;
+    position: relative;
+  }
+
+  .main .container .background-title {
+    display: none;
+  }
+
+  .main .container .heading .image-left {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .main .container .heading .image-left img {
+    width: 28em;
+  }
+
+  .main .container .heading .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 5;
+  }
+
+  .main .container .heading .title h1 {
+    font-size: 75px;
+    line-height: 85px;
+    width: fit-content;
+  }
+
+  .main .container .heading .title p {
+    font-size: 25px;
+  }
+
+  .main .container .heading .title .btn {
+    font-size: 15px;
+    padding: 20px 50px;
+  }
+
+  .main .container .heading .image-right {
+    display: none;
+  }
+
+  .description .container {
+    gap: 25px;
+  }
+
+  .description .container .heading h2 {
+    font-size: 55px;
+    line-height: 70px;
+    left: -110px;
+  }
+
+  .description .container .heading p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .page3 .container .heading h1 {
+    font-size: 70px;
+  }
+
+  .page3 .container .heading p {
+    margin-bottom: 1em;
+  }
+
+  .page3 .container .heading .btn {
+    padding: 25px 60px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 895px) {
+  .description .container {
+    flex-direction: column;
+    padding: 5em 0;
+  }
+  .description .container .heading {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .description .container .heading h2 {
+    font-size: 65px;
+    line-height: 50px;
+    letter-spacing: -3px;
+    left: 0px;
+  }
+
+  .description .container .heading p {
+    font-size: 18px;
+    width: 80%;
+    line-height: 25px;
+  }
+
+  .description .container .image {
+    min-width: fit-content;
+    width: 100%;
+  }
+  .description .container .image img {
+    object-fit: cover;
+    object-position: 0 -120px;
+    width: 100%;
+    height: 500px;
+    border-radius: 15px;
+  }
+}
+
+@media (max-width: 800px) {
+  .navigation .container {
+    padding: 2em 2em;
+  }
+  .navigation .container ul {
+    display: none;
+  }
+  .navigation .container .collapse-icon {
+    display: flex;
+  }
+
+  .page3 .container .heading {
+    margin-left: 2em;
+  }
+
+  .page3 .container .heading h1 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .page3 .container .heading p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .page3 .container .image {
+    top: -100px;
+    width: 96em;
+  }
+
+  .page3 .container .image img {
+    width: 40em;
+  }
+
+  .page3 .container .heading .btn {
+    padding: 20px 50px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 497px) {
+  .main .container .heading .title h1 {
+    font-size: 50px;
+    letter-spacing: -2px;
+    line-height: 50px;
+  }
+
+  .main .container .heading .title p {
+    font-size: 20px;
+  }
+
+  .main .container .heading .image-left {
+    display: grid;
+    place-items: center;
+    width: 100%;
+  }
+  .main .container .heading .image-left img {
+    width: 90%;
+  }
+
+  .page3 {
+    z-index: 1;
+  }
+
+  .page3 .container {
+    padding: 5em 0;
+  }
+
+  .page3 .container .heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 0;
+    z-index: 2;
+  }
+
+  .page3 .container .heading h1 {
+    width: 100%;
+  }
+
+  .page3 .container .heading p {
+    width: 80%;
+  }
+
+  .page3 .container .image {
+    position: absolute;
+    top: -35px;
+    right: 0;
+    width: 15em;
+    z-index: -1;
+  }
+
+  .page3 .container .image img {
+    width: 30em;
+  }
+
+  .page3 .container .heading .btn {
+    padding: 20px 50px;
+    font-size: 18px;
+  }
+}
